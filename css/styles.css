@@ -641,6 +641,7 @@ border: 1px solid #948b8b;
 }
 
 .modal-title {
+display: flex;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -653,7 +654,7 @@ margin-bottom: 16px;
 }
 
 .modal-field {
-  margin-bottom: 18px;
+margin-bottom: 18px;
 }
 
 .modal-input-wrap {

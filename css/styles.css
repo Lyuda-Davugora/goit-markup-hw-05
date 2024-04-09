@@ -554,6 +554,9 @@ footer-container-two {
 margin-right: 80px;
 }
 
+.footer-mail-text {
+gap: 24px;
+}
 
 .footer-mail-text {
 font-weight: 500;

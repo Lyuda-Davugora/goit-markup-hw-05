@@ -633,11 +633,11 @@ padding: 24px;
 position: absolute;
 top: 24px;
 right: 24px;
-border-radius: 4px;
 width: 24px;
 height: 24px;
 background-color: #E7E9FC;
 border: 1px solid #948b8b;
+border-radius: 50%;
 }
 
 .modal-title {

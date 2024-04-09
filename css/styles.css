@@ -662,7 +662,7 @@ margin-bottom: 16px;
 }
 
 .modal-field {
-margin-bottom: 18px;
+margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -706,7 +706,7 @@ margin-bottom: 18px;
 }
 
 .modal-field-icon {
-  fill: transparent;
+  fill: #2E2F42;
   stroke: #404040;
   position: absolute;
   left: 24px;
@@ -714,6 +714,11 @@ margin-bottom: 18px;
   transform: translateY(-50%);
   transition: stroke 300ms linear;
 }
+
+.modal-field-icon field-person:fctive {
+fill: #4D5AE5;
+}
+
 
 .modal-text {
   width: 100%;

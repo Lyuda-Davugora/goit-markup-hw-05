@@ -355,21 +355,84 @@ growth solutions.</p>
 </ul>
 </div>
 <form class="footer-mail">
-    <p class="footer-mail-text">Subscribe</p>
-       <label> <span class="label-footer-name">E-mail </span>
-      
-   <input type="email" class="footer-form-input" name="first-name"  />
-  </label>
-    <button type="submit" class="footer-button"> <span class="button-footer-name">Submit</span>
-    <a href="" class="icon-link">
-<svg class="icon-icon" width="24" height="20">
+<p class="footer-mail-text">Subscribe</p>
+<label> <span class="label-footer-name">
+placeholder="E-mail"
+<input type="email" class="footer-form-input" name="first-name"  />
+</label>   
+<button type="submit" class="footer-button"> <span class="button-footer-name">Submit</span>
+<svg class="icon-icon" width="24" height="24">
 <use href="./images/icons.svg#icon-frame"></use>
 </svg>
-</a>
-    </button>
-  </label>
+</button>
+</label>
 </form>
 </div>
 </footer>
+
+<div class="backdrop">
+<div class="modal">
+<button  type="button" class="modal-open-btn">
+<a href="" class="icon-link">
+<svg class="modal-icon-icon" width="8" height="8">
+<use href="./images/icons.svg#icon-close"></use>
+</svg>
+</a>
+            
+</button>
+<p class="modal-title title">
+LEAVE A REVIEW ABOUT <span class="accent">OUR CHOCOLATE</span>
+</p>
+
+<form class="modal-form">
+<label class="modal-label"
+><span>Name</span>
+<input
+type="text"
+class="modal-input"
+placeholder="Enter name"
+name="user-name"
+minlength="2"
+id="user-name"
+/>
+</label>
+<div class="modal-field">
+<label for="user-email" class="modal-label">Email</label>
+<div class="modal-input-wrap">
+<input
+type="email"
+class="modal-input"
+placeholder="Enter email"
+name="user-email"
+id="user-email"
+/>
+<svg class="modal-field-icon" width="24" height="24">
+<use href="./images/icons.svg#icon-user"></use>
+</svg>
+</div>
+</div>
+<div class="modal-field">
+<input
+type="tel"
+class="modal-input"
+placeholder="Enter phone"
+name="user-tel"
+required
+/>
+</div>
+<div class="modal-field">
+<label for="user-comment" class="modal-label">Comment </label>
+ <textarea
+name="user-comment"
+id="user-comment"
+placeholder="Enter text"
+class="modal-text"
+></textarea>
+</div>
+
+<button type="submit">Send</button>
+</form>
+</div>
+</div>
 </body>
 </html>

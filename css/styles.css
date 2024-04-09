@@ -636,14 +636,21 @@ background: #fcfcfc;
 border-radius: 4px;
 width: 24px;
 height: 24px;
-  background-color: #fcf1e0;
+  background-color: #E7E9FC;
   border: 1px solid #948b8b;
 }
 
 .modal-title {
-  text-align: left;
-  max-width: 298px;
-  margin-bottom: 40px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+  
+text-align: left;
+max-width: 360px;
+margin-bottom: 16px;
 }
 
 .modal-field {

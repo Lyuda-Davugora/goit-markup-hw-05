@@ -781,26 +781,32 @@ margin-bottom: 24px;
 .check-text {
 font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
 
-.check-text span {
-  width: 16px;
-  height: 16px;
-  border-radius: 4px;
-  border: 1px solid rgba(17, 17, 17, 0.14);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
+.check-text-svg {
+width: 16px;
+height: 16px;
+border-radius: 2px;
+border: 1px solid rgba(46, 47, 66, 0.4); 
+display: inline-flex; 
+align-items: center;
+justify-content: center;
+fill: transparent;
+
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .check-text span {
-  background-color: #fd9222;
+.modal-check:checked + .check-text-svg {
+  background-color: #404bbf; 
   border: none;
-  fill: #eceded;
+  fill: #F4F4FD;
+}
+
+.link-policy {
+color: #4d5ae5;
 }
 
 .button-modal {

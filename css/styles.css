@@ -787,6 +787,7 @@ border-color: #4D5AE5;
 
 .modal-checkbox {
 display: flex;
+gap: 8px;
 margin-bottom: 24px; 
 }
 

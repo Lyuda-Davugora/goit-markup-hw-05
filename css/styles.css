@@ -739,8 +739,21 @@ color: rgba(46, 47, 66, 0.4);
   resize: none;
 }
 
+.form-label {
+font-weight: 400;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.04em;
+color: #8e8f99;
+  }
+
 .modal-form-accept  {
-color: 4D5AE5;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.33333;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
 }
 
 .button-modal {

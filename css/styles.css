@@ -42,6 +42,15 @@ img {
   display: block;
 }
 
+.visually-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;

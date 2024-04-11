@@ -591,12 +591,8 @@ height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.label-footer-two {
-gap: 16px;
-}
-
 .footer-button {
- display: block;
+display: block;
 padding: 8px 24px;
   
 cursor: pointer;
@@ -621,15 +617,14 @@ color: #fff;
 
 .icon-link-footer {
 display: flex;
-width: 24px;
-height: 24px;  
-  
-background-color: #4d5ae5;
-padding-left: 16px;
 }
 
 .icon-icon-footer {
 fill: #FFFFFF;
+display: flex;
+width: 24px;
+height: 24px; 
+padding-left: 16px;
 }
 
 

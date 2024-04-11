@@ -677,6 +677,18 @@ fill: #ffffff;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+.modal-label {
+  display: block;
+font-size: 12px;
+line-height: 1.17; 
+letter-spacing: 0.04em; 
+transition: color   #8e8f99; 
+  margin-bottom: 8px;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
 .modal-title {
 display: flex;
   
@@ -725,14 +737,6 @@ margin-bottom: 8px;
 .modal-input::placeholder {
   font-size: 14px;
   color: teal;
-}
-
-.modal-label {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  color: rgba(64, 64, 64, 0.3);
 }
 
 .modal-field-icon {

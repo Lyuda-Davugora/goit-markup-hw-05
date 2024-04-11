@@ -682,7 +682,7 @@ margin-bottom: 4px;
 }
 
 .modal-input-wrap {
-  position: relative;
+position: relative;
 }
 
 .modal-title {
@@ -728,8 +728,8 @@ border-color: #4D5AE5;
 }
 
 .modal-input::placeholder {
-  font-size: 14px;
-  color: teal;
+font-size: 14px;
+color: teal;
 }
 
 .modal-field-icon {
@@ -767,22 +767,21 @@ resize: none;
 border-color: #4D5AE5; 
 }
 
+.check-text span {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
 
-.form-label {
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16;
-letter-spacing: 0.04em;
-color: #8e8f99;
-  }
-
-.modal-form-accept  {
-font-weight: 400;
-font-size: 12px;
-line-height: 1.33333;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-color: #4d5ae5;
+.modal-check:checked + .check-text span {
+  background-color: #fd9222;
+  border: none;
+  fill: #eceded;
 }
 
 .button-modal {

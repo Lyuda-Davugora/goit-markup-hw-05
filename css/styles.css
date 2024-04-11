@@ -629,6 +629,7 @@ height: 100%;
 position: fixed;
 top: 0;
 background: rgba(46, 47, 66, 0.4);
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal {
@@ -637,6 +638,7 @@ min-height: 584px;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 background: #fcfcfc;
 border-radius: 4px;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 position: absolute;
 top: 50%;
 left: 50%;
@@ -646,13 +648,22 @@ padding: 24px;
 
 .modal-open-btn {
 position: absolute;
+display: flex;
+align-items: center;  
+justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 top: 24px;
 right: 24px;
 width: 24px;
 height: 24px;
-background-color: #E7E9FC;
-border: 1px solid #948b8b;
+
+border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
+
+background-color: #E7E9FC;
+
+padding: 0; 
 }
 
 .modal-title {

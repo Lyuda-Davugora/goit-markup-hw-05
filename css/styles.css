@@ -569,13 +569,9 @@ margin-bottom: 16px;
 }
 
 .label-footer {
+display: flex;
 column-count: 2;
 gap: 24px;
-}
-
-
-.label-footer-one {
-display: flex;
 }
 
 .footer-form-input {

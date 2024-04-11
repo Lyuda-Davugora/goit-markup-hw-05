@@ -410,13 +410,15 @@ required
 <label for="user-email" class="modal-label">Phone</label>
 <div class="modal-input-wrap">
 <input
-type="tel"
+type="text"
 class="modal-input"
 placeholder=""
-name="user-tel"
+name="user-name"
+minlength="2"
+id="user-name"
 required
 />
-<svg class="modal-field-icon" width="18" height="24">
+<svg class="modal-field-icon field-person" width="18" height="24">
 <use href="./images/icons.svg#icon-phone"></use>
 </svg>
 </div>  
@@ -433,7 +435,7 @@ name="user-email"
 id="user-email"
 required
 />
-<svg class="modal-field-icon" width="18" height="24">
+<svg class="modal-field-icon field-person" width="18" height="24">
 <use href="./images/icons.svg#icon-email"></use>
 </svg>
 </div>

@@ -562,17 +562,17 @@ margin-right: 80px;
 gap: 24px;
 }
 
-.footer-mail-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 24px; 
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-margin-bottom: 16px; 
+.label-footer {
+display: flex;
 }
 
 .footer-form-input {
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+  
 border: 1px solid #fff;
 border-radius: 4px;
 width: 264px;
@@ -581,16 +581,8 @@ height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.label-footer-name {
-font-weight: 400;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color: #fff;
-}
-
 .footer-button {
-display: flex;
+  display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: row;

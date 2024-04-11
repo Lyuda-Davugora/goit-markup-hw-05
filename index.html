@@ -446,9 +446,22 @@ placeholder="Text input"
 class="modal-text"> </textarea>
 </div>
     
-<div class="modal-field">
-<input type="checkbox" name="language" value="python" id="python" checked="true">
-<label class="form-label" for="python">I accept the terms and conditions of the <a class="modal-form-accept" href="./index.html">Privacy Policy</a> </label> 
+ <div class="modal-field">
+<input
+type="checkbox"
+name="policy"
+id="policy"
+class="modal-check visually-hidden"
+value="true"
+/>
+<label for="policy" class="check-text">
+<span>
+<svg class="check-icon" width="10" height="10">
+<use href="./images/icons.svg#icon-check"></use>
+ </svg>
+ </span>
+I accept the terms and conditions of the Privacy Policy</label
+>
 </div>
 
 <button type="submit" class="button-modal">Send</button>

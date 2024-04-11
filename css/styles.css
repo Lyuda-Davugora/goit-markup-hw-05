@@ -554,7 +554,7 @@ fill: #f4f4fd;
 background-color: #31D0AA;
 }
 
-footer-container-two {
+.footer-container-two {
 margin-right: 80px;
 }
 
@@ -570,7 +570,7 @@ margin-bottom: 24px;
 
 .label-footer {
 display: flex;
-gap: 24px;
+gap: 16px;
 }
 
 .footer-form-input {
@@ -614,12 +614,12 @@ color: #fff;
 
 .icon-link-footer {
 display: flex;
+width: 24px;
+height: 24px;  
 align-items: center;
 justify-content: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   
-width: 24px;
-height: 24px;
 background-color: #4d5ae5;
 border-radius: 50%;
 padding-left: 16px;

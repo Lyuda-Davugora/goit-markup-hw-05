@@ -791,19 +791,21 @@ margin-bottom: 24px;
 }
 
 .check-text {
+  display: flex;
 font-weight: 400;
 font-size: 12px;
+line-height: 14px; 
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
 
 .check-text-svg {
+display: flex;
 width: 16px;
 height: 16px;
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4); 
-display: flex;
 align-items: center;
 justify-content: center;
 fill: transparent;

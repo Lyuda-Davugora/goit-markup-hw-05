@@ -570,8 +570,6 @@ margin-bottom: 16px;
 
 .footer-mail {
 display: flex;
-column-count: 2;
-gap: 24px;
 }
 
 .footer-form-input {

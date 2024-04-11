@@ -594,14 +594,13 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 .footer-button-sub {
 display: flex; 
-margin: 0 auto;
+width: 165px;
+height: 40px;
 padding: 24px 8px;
   
 border: 1px solid #fff;
 border-radius: 4px;
-width: 165px;
-height: 40px;
-  
+
 background: #4d5ae5;  
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }

@@ -569,6 +569,7 @@ margin-bottom: 16px;
 }
 
 .footer-mail {
+display: flex;
 column-count: 2;
 gap: 24px;
 }
@@ -576,7 +577,8 @@ gap: 24px;
 .footer-form-input {
 display: flex;
 padding: 16px 8px;
-  
+padding-left: 16px; 
+
 font-weight: 400;
 font-size: 12px;
 line-height: 2;
@@ -594,8 +596,10 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 .footer-button-sub {
 display: flex; 
-width: 165px;
 height: 40px;
+min-width: 165px;
+justify-content: center; 
+align-items: center; 
   
 border: 1px solid #fff;
 border-radius: 4px;
@@ -611,9 +615,11 @@ padding: 8px 16px 8px 24px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04em;
+ letter-spacing: 0.04em;
 text-align: center;
-color: #fff;
+color: #ffffff;
+
+border: none;
 }
 
 .icon-icon-footer {
@@ -621,7 +627,7 @@ fill: #FFFFFF;
   
 display: flex;
   
-padding: 8px 24px 8px 117px;
+margin-left: 16px;
 }
 
 

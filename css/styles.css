@@ -818,7 +818,10 @@ fill: #F4F4FD;
 }
 
 .modal-check:focus + .check-text .check-text-svg {
-border-color: #4D5AE5; 
+border-color: #4D5AE5;
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
 }
 
 .link-policy {

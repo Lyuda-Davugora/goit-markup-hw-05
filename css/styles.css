@@ -681,16 +681,10 @@ background-color: #E7E9FC;
 padding: 0; 
 }
 
-.modal-open-btn:hover {
-background-color: #404bbf; 
-border: none;
-fill: #ffffff;
-}
-
+.modal-open-btn:hover,
 .modal-open-btn:focus {
 background-color: #404bbf; 
 border: none;
-fill: #ffffff;
 }
 
 .modal-icon-icon {

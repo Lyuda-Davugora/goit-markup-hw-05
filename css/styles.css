@@ -697,8 +697,8 @@ border: none;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-icon:hover,
-.modal-icon-icon:focus {
+.modal-icon-icon:hover > svg,
+.modal-icon-icon:focus > svg {
 fill: #ffffff;
 }
 

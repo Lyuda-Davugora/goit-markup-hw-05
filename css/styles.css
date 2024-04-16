@@ -824,7 +824,7 @@ border: none;
 fill: #F4F4FD;
 }
 
-.modal-checkbox:focus + .check-text .check-text-svg {
+.modal-check:focus + .check-text .check-text-svg {
 border-color: #4D5AE5;
 }
 

@@ -627,9 +627,7 @@ background-color: #404BBF;
 
 .icon-icon-footer {
 fill: #FFFFFF;
-  
 display: flex;
-  
 margin-left: 16px;
 }
 
@@ -687,8 +685,8 @@ background-color: #E7E9FC;
 padding: 0; 
 }
 
-.modal-open-btn:hover > svg,
-.modal-open-btn:focus > svg {
+.modal-open-btn:hover,
+.modal-open-btn:focus {
 background-color: #404bbf; 
 border: none;
 }
@@ -857,7 +855,7 @@ margin: 0 auto;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.button-modal:hover > svg,
-.button-modal:focus > svg {
+.button-modal:hover,
+.button-modal:focus {
 background: #404BBF;
 }

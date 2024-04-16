@@ -824,12 +824,6 @@ margin-right: 8px;
 .check-icon {
 }
 
-.modal-check:checked + .check-text .check-text-svg {
-background-color: #404bbf;
-border: none;
-fill: #F4F4FD;
-}
-
 .modal-check:focus + .check-text .check-text-svg {
 border-color: #4D5AE5;
 }

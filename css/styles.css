@@ -810,7 +810,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 margin-right: 8px; 
 }
 
-.modal-check:checked + .check-text .span-check-text {
+.modal-checked:checked + .check-text .span-check-text {
 fill: #F4F4FD;
 background-color: #404BBF;
 border: none;

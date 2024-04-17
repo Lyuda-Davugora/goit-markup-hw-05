@@ -558,7 +558,6 @@ background-color: #31D0AA;
 }
 
 .footer-container-tree {
-margin-right: auto;
 }
 
 .footer-mail-text {
@@ -650,11 +649,11 @@ pointer-events: none;
 visibility: hidden;
 }
 
-.backdrop. is-open {
+.backdrop.is-open {
 opacity: 1;
 pointer-events: auto;
 visibility: visible;
-}
+)
 
 .modal {
     width: 408px;

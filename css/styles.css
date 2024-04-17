@@ -649,7 +649,7 @@ pointer-events: none;
 visibility: hidden;
 }
 
-.backdrop.is-open {
+.backdrop .is-open {
 opacity: 1;
 pointer-events: auto;
 visibility: visible;
